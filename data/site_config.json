@@ -1,0 +1,13 @@
+{
+  "brand": {
+    "name": "VERDE NOIR",
+    "logo_url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 60'%3E%3Ctext x='10' y='40' fill='%2300FF88' font-family='Georgia, serif' font-size='32' font-weight='bold'%3EVERDE%3C/text%3E%3Ctext x='95' y='40' fill='%23FFFFFF' font-family='Georgia, serif' font-size='32' font-weight='bold'%3ENOIR%3C/text%3E%3C/svg%3E"
+  },
+  "theme": {
+    "primary_dark": "#040D09",
+    "secondary_green": "#0A2618",
+    "accent": "#00FF88",
+    "text_white": "#FFFFFF",
+    "text_off_white": "#E8F5E9"
+  }
+}
