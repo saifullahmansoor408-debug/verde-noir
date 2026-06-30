@@ -1,0 +1,116 @@
+[
+  {
+    "id": "home",
+    "title": "Home",
+    "slug": "/",
+    "sections": [
+      {
+        "id": "sec_hero_1",
+        "type": "hero",
+        "variation": 2,
+        "content": {
+          "title": "Autumn Collection",
+          "subtitle": "Redefining Elegance",
+          "images": [
+            "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1920&q=80",
+            "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1920&q=80",
+            "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1920&q=80"
+          ],
+          "cta_text": "Explore Collection",
+          "cta_link": "/shop"
+        }
+      },
+      {
+        "id": "sec_features_1",
+        "type": "features",
+        "variation": 1,
+        "content": {
+          "features": [
+            { "icon": "shipping", "title": "Free Global Shipping", "description": "On orders over $200" },
+            { "icon": "returns", "title": "Easy Returns", "description": "30-day return policy" },
+            { "icon": "quality", "title": "Premium Quality", "description": "Handcrafted materials" },
+            { "icon": "support", "title": "24/7 Support", "description": "Dedicated assistance" }
+          ]
+        }
+      },
+      {
+        "id": "sec_products_1",
+        "type": "product_grid",
+        "variation": 1,
+        "content": {
+          "category": "new-arrivals",
+          "title": "New Arrivals",
+          "limit": 8
+        }
+      },
+      {
+        "id": "sec_testimonials_1",
+        "type": "testimonials",
+        "variation": 3,
+        "content": {
+          "title": "What Our Clients Say",
+          "reviews": []
+        }
+      },
+      {
+        "id": "sec_newsletter_1",
+        "type": "newsletter",
+        "variation": 1,
+        "content": {
+          "title": "Join Our Exclusive List",
+          "subtitle": "Get 15% off your first order",
+          "placeholder": "Enter your email"
+        }
+      }
+    ]
+  },
+  {
+    "id": "shop",
+    "title": "Shop",
+    "slug": "/shop",
+    "sections": [
+      {
+        "id": "sec_shop_hero",
+        "type": "hero",
+        "variation": 3,
+        "content": {
+          "title": "SALE",
+          "subtitle": "Up to 50% Off Selected Items",
+          "countdown_end": "2025-12-31T23:59:59Z",
+          "cta_text": "Shop Now",
+          "cta_link": "/shop/all"
+        }
+      },
+      {
+        "id": "sec_shop_grid",
+        "type": "product_grid",
+        "variation": 2,
+        "content": {
+          "category": "all",
+          "title": "All Products"
+        }
+      }
+    ]
+  },
+  {
+    "id": "about",
+    "title": "About",
+    "slug": "/about",
+    "sections": [
+      {
+        "id": "sec_about_hero",
+        "type": "hero",
+        "variation": 1,
+        "content": {
+          "title": "Our Story",
+          "subtitle": "Crafting Luxury Since 2024",
+          "image": "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=1920&q=80",
+          "hotspots": [
+            { "x": 30, "y": 40, "product_id": "prod_1", "product_name": "Silk Blazer", "price": "$450" },
+            { "x": 60, "y": 55, "product_id": "prod_2", "product_name": "Leather Bag", "price": "$320" }
+          ]
+        }
+      }
+    ]
+  }
+]
