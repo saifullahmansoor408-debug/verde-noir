@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERDE NOIR | Admin Panel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <div id="admin-root">
+        <!-- Admin Panel Content -->
+        <aside class="admin-sidebar">
+            <div class="admin-logo">VERDE NOIR <span>ADMIN</span></div>
+            <nav class="admin-nav">
+                <a href="#" data-page="home" class="active">Home</a>
+                <a href="#" data-page="shop">Shop</a>
+                <a href="#" data-page="about">About</a>
+                <a href="#" data-page="contact">Contact</a>
+            </nav>
+        </aside>
+        
+        <main class="admin-main">
+            <header class="admin-header">
+                <h1 id="page-title">Page Builder</h1>
+                <div class="admin-actions">
+                    <button id="btn-preview" class="btn btn-outline">Preview</button>
+                    <button id="btn-save" class="btn btn-primary">Save Changes</button>
+                    <button id="btn-publish" class="btn btn-accent">Publish</button>
+                </div>
+            </header>
+            
+            <div class="admin-content">
+                <div class="builder-left">
+                    <h3>Sections</h3>
+                    <div id="sections-tree"></div>
+                </div>
+                
+                <div class="builder-center">
+                    <div id="sections-canvas"></div>
+                </div>
+                
+                <div class="builder-right" id="inspector-panel">
+                    <div class="inspector-header">
+                        <h3>Inspector</h3>
+                        <button id="close-inspector">&times;</button>
+                    </div>
+                    <div id="inspector-content"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="js/api.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>
